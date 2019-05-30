@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<div class="form-horizontal">
+<div class="form-horizontal" style="margin-top:5%;">
    <div class="container md-3">
       <br />
       <h1 class="text-center">Actualizar un Sitio Turístico Rural</h1>
@@ -10,9 +10,9 @@
             <div class="col-md-2"></div>
             <div class="col-md-4">
                <div class="form-group">
-                  <h4>Nombre</h4>
+                  <h4>Nombre del sitio</h4>
                   <div class="col-md-10">
-                     <input type="text" name="name" id="name" class="form-control" value="Las Cruces Estación Biológica"/>
+                  <textarea class="form-control" rows="3" id="comment" class="form-control">Las Cruces Estación Biológica</textarea>
                   </div>
                </div>
             </div>
@@ -100,23 +100,23 @@
                </div>
             </div>
          </div>
-      </div>
-   </div>
-   <div class="row">
+         <br>
+         <div class="row">
       <div class="col-md-4">
       </div>
       <div class="col-md-2">
          <div class="form-group">
-            <a href="~/Activities/Index" class="btn btn-primary btn-md text-uppercase">Cancelar</a>
+            <a href="index.php" class="btn btn-primary btn-md text-uppercase">Cancelar</a>
          </div>
       </div>
       <div class="col-md-2">
          <div class="form-group">
-            <input type="submit" value="Guardar Cambios" class="btn btn-primary btn-md text-uppercase" />
+         <a href="index.php" type="submit" class="btn btn-primary btn-md text-uppercase">Guardar</a>
          </div>
       </div>
    </div>
    <!--row buttons-->
-</div>
+      </div>
+   </div>
+<br>
 <?php include 'footer.php';?>
-COPY TO CLIPBOARD	 SELECT ALL
