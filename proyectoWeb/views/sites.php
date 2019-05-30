@@ -1,3 +1,4 @@
+<?php include 'header.php';?>
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
@@ -118,7 +119,7 @@
                      <div class="form-group">
                        <br>
                        <br>
-            <a href="sites.php" type="submit" class="btn btn-primary btn-md text-uppercase">Buscar</a>
+            <a href="index.php" type="submit" class="btn btn-primary btn-md text-uppercase">Buscar</a>
          </div>
                      </div>
                   </div>
@@ -126,6 +127,53 @@
                </div>
             </div>
          </div>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 ">
+            <div class="card-body text-center" >
+             <img src="../img/leona.jpg"  width="300" height="325">
+        
+              <hr class="my-4">
+              
+              <h4>La leona eco lodge</h4>
+              <br>
+              <a href="#projects" class="btn btn-primary js-scroll-trigger">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <img src="../img/heliconias.jpg"  width="300" height="325">
+              <hr class="my-4">
+              <h4>Heliconias Rainforeste Lodge</h4>
+              <br>
+              <a href="#projects" class="btn btn-primary js-scroll-trigger">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+            <img src="../img/silencio.jpg"  width="300" height="325">
+              <hr class="my-4">
+              <h4>El Silencio Albergue Agroecoturístico Comunitario</h4>
+              <br>
+              <a href="#projects" class="btn btn-primary js-scroll-trigger">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div
+
+    </div>
+  </section>
+
       </div>
    </div>
 </section>
+<?php include 'footer.php';?>
