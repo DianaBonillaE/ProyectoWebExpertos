@@ -1,3 +1,4 @@
+<?php include '../header.php';?>
 <div class="container md-3">
         <br />
         <h1 class="text-center">Ingresar un Sitio Turístico Rural</h1>
@@ -49,6 +50,28 @@
                     </div>
 
                     <div class="form-group">
+                    <h4>Tipos de acceso</h4>
+                        <div class="col-md-10">
+                        <select name="services" id="services" class="form-control">
+                        <option value="1">Automóvil</option>
+                        <option value="2">Autobús</option>
+                        <option value="3">Caminata</option>
+                    </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                    <h4>Tipos de acceso</h4>
+                        <div class="col-md-10">
+                        <select name="services" id="services" class="form-control">
+                        <option value="1">Automóvil</option>
+                        <option value="2">Autobús</option>
+                        <option value="3">Caminata</option>
+                    </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
                         <div class="col-md-10">
                         <h4>Seleccione una foto</h4>
                             <br />
@@ -61,17 +84,17 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-2">
-                                <a href="../index.php" class="btn btn-primary btn-md text-uppercase">Cancelar</a>
+                                <a href="../index.php" class="btn btn-primary">Cancelar</a>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-2">
-                                <input type="submit" value="Guardar" class="btn btn-primary btn-md text-uppercase" />
+                                <a type="submit" href="../index.php" class="btn btn-primary">Guardar</a>
                             </div>
                         </div>
                     </div>
-</form>
+                </form>
                 </div>
             </div>
             <br />
@@ -100,5 +123,9 @@
     margin-bottom: 25px;
   }
 
+  .input{
+    background-color:rgb(46,49,146);
+    color: red;
+  }
 
 </style>
