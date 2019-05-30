@@ -219,6 +219,28 @@
     border: 0;
   }
  
+
+  
+   .card {
+     margin-top: 5%;
+    border: 0;
+    border-bottom: 0.25rem solid #00CC00;
+  }
+  
+ .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  
+ .card hr {
+    border-color: #00CC00;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
+
   body {
     font-family: 'Nunito';
     letter-spacing: 0.0625em;
@@ -246,7 +268,7 @@
   }
 
 .md-3 {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
     width: 60%;
 
 }
@@ -258,9 +280,8 @@
 }
 
 .md-4 {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  width: 100%;
-  margin-left: -2%
+ 
+  width: 60%;
 
 }
 
@@ -270,6 +291,5 @@ margin-left: 10%
 
   footer {
     padding: 5rem 0;
-    position: relative;
   }
   
