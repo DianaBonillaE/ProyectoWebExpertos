@@ -93,9 +93,29 @@
          </div>
       </div>
       <div class="col-md-8">
-         <div class="container md-3">
+         <div class="container md-4">
             <div class="panel panel-default">
                <div class="panel-body">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <br>
+                        <h4>Estadía</h4>
+                        <select name="services" id="services" class="form-control">
+                           <option value="1">Estadía Corta</option>
+                           <option value="2">Estadía Larga</option>
+                        </select>
+                     </div>
+                     <div class="col-md-5">
+                        <br>
+                        <h4>Acceso</h4>
+                        <select name="services" id="services" class="form-control">
+                           <option value="1">Automovíl</option>
+                           <option value="2">Autobus</option>
+                           <option value="3">Caminata</option>
+                        </select>
+                     </div>
+                  </div>
+                  <br>
                </div>
             </div>
          </div>
