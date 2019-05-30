@@ -1,5 +1,3 @@
 <?php include 'header.php';?>
-<div class="full-height home">
-
-    </div>
+<?php include 'principal.php';?>
 <?php include 'footer.php';?>
