@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<div class="form-horizontal">
    <div class="container md-3">
       <br />
       <h1 class="text-center">Actualizar un Sitio Turístico Rural</h1>
@@ -11,7 +12,7 @@
                <div class="form-group">
                   <h4>Nombre</h4>
                   <div class="col-md-10">
-                     <input type="text" name="name" id="name" class="form-control" />
+                     <input type="text" name="name" id="name" class="form-control" value="Las Cruces Estación Biológica"/>
                   </div>
                </div>
             </div>
@@ -19,7 +20,7 @@
                <div class="form-group">
                   <h4>Dirección</h4>
                   <div class="col-sm-10">
-                     <textarea class="form-control" rows="3" id="comment" class="form-control"></textarea>
+                     <textarea class="form-control" rows="3" id="comment" class="form-control">San Vito, San Vito De Coto Brus, Puntarenas, Coto Brus</textarea>
                   </div>
                </div>
             </div>
@@ -30,7 +31,7 @@
                <div class="form-group">
                   <h4>Descripción</h4>
                   <div class="col-md-10">
-                     <textarea class="form-control" rows="3" id="comment" class="form-control"></textarea>
+                     <textarea class="form-control" rows="3" id="comment" class="form-control">Durante 50 años, los jardines han brindado a los visitantes una amplia variedad de plantas exóticas y nativas para admirar, que incluye la segunda colección más grande de palmeras del mundo</textarea>
                   </div>
                </div>
             </div>
@@ -38,7 +39,7 @@
                <div class="form-group">
                   <h4>Link del video de Youtube</h4>
                   <div class="col-md-10">
-                     <textarea class="form-control" rows="3" id="comment" class="form-control"></textarea>
+                     <textarea class="form-control" rows="3" id="comment" class="form-control">https://www.youtube.com/watch?v=lZLO4Vr1l_Y</textarea>
                   </div>
                </div>
             </div>
@@ -51,7 +52,7 @@
                   <select multiple="multiple" name="services" id="services" class="form-control">
                      <option value="1">Cable TV</option>
                      <option value="2">Restaurante</option>
-                     <option value="3">Tours</option>
+                     <option selected value="3">Tours</option>
                      <option value="4">Piscina</option>
                   </select>
                </div>
@@ -62,7 +63,7 @@
                   <div class="col-sm-10">
                      <select multiple="multiple" name="services" id="services" class="form-control">
                         <option value="1">Automóvil</option>
-                        <option value="2">Autobús</option>
+                        <option selected value="2">Autobús</option>
                         <option value="3">Caminata</option>
                      </select>
                   </div>
@@ -79,7 +80,7 @@
                         <option value="1">Ecoturismo</option>
                         <option value="2">Aventura</option>
                         <option value="3">Cultural</option>
-                        <option value="3">Etnoturismo</option>
+                        <option selected value="3">Etnoturismo</option>
                         <option value="3">Agroturimo</option>
                         <option value="3">Educativo y Activo</option>
                         <option value="3">Salud</option>
@@ -93,6 +94,7 @@
                <div class="form-group">
                   <div class="col-sm-10">
                      <h4>Imagen de sitio</h4>
+                     <img src="../img/bg-masthead.jpg" width="50%;" height="100%;" />
                      <input type="file" name="File" id="File" class="form-control"/>
                   </div>
                </div>
@@ -100,7 +102,6 @@
          </div>
       </div>
    </div>
-   <br>
    <div class="row">
       <div class="col-md-4">
       </div>
@@ -111,11 +112,11 @@
       </div>
       <div class="col-md-2">
          <div class="form-group">
-            <input type="submit" value="Guardar" class="btn btn-primary btn-md text-uppercase" />
+            <input type="submit" value="Guardar Cambios" class="btn btn-primary btn-md text-uppercase" />
          </div>
       </div>
    </div>
    <!--row buttons-->
-
+</div>
 <?php include 'footer.php';?>
 COPY TO CLIPBOARD	 SELECT ALL
