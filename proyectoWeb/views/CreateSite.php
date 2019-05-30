@@ -1,4 +1,4 @@
-<?php include '../header.php';?>
+<?php include 'header.php';?>
 <div class="container md-3">
         <br />
         <h1 class="text-center">Ingresar un Sitio Turístico Rural</h1>
@@ -102,10 +102,6 @@
     </div>
 
     <style>
-
-#mainNav {
-    background-color: rgb(46,49,146);
-}
 
 .md-3 {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
