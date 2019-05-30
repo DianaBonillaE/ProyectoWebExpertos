@@ -251,6 +251,12 @@
 
 }
 
+.md-5 {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  width: 100%;
+
+}
+
 .md-4 {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   width: 100%;

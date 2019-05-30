@@ -106,12 +106,12 @@
       </div>
       <div class="col-md-2">
          <div class="form-group">
-            <a href="index.php" class="btn btn-primary btn-md text-uppercase">Cancelar</a>
+            <a href="ListSite.php" class="btn btn-primary btn-md text-uppercase">Cancelar</a>
          </div>
       </div>
       <div class="col-md-2">
          <div class="form-group">
-         <a href="index.php" type="submit" class="btn btn-primary btn-md text-uppercase">Guardar</a>
+         <a href="ListSite.php" type="submit" class="btn btn-primary btn-md text-uppercase">Guardar</a>
          </div>
       </div>
    </div>
