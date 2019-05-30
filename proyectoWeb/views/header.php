@@ -23,7 +23,7 @@
                   <li><a href="../views/">Menu 1</a></li>
                </ul>
             </li>
-            <li><a href="../views/">Menu 1</a></li>
+            <li><a href="../views/Sites/Create.php">Crear Sitio</a></li>
             <li><a href="../views/">Menu 1</a></li>
             <li><a href="../views/">Menu 1</a></li>
             <li><a href="../views/">Menu 1</a></li>
