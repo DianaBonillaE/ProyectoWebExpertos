@@ -22,7 +22,7 @@ function login() {
   var password = document.getElementById("password").value;
 
   if (user == "admin" && password == "admin") {
-    location.href = "index.php";
+    location.href = "admin.php";
   } else {
     swal({
       title: "Datos incorrectos",

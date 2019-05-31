@@ -10,7 +10,7 @@
             <div class="col-md-2"></div>
           
             <div class="col-md-10">
-               <img src="../img/bg-masthead.jpg" width="80%;" height="100%;" />
+               <img src="../img/bg-masthead.jpg" width="90%;" height="100%;" />
          </div>
          </div>
       </div>
@@ -46,7 +46,8 @@
                <h4 style="color:#00cc00;">Video</h4>
                <div class="col-md-10">
                   <div class = "vid-container">
-                     <iframe id = "vid_frame" src = "https://www.youtube.com/embed/5-65wWY4Io4?autohide=1&showinfo=1" width = "560" height = "315" frameborder = "0"> </iframe> 
+                  <iframe width="700" height="315" src="https://www.youtube.com/embed/psZc1x1TQNI" frameborder = "0" allowfullscreen></iframe>
+
                   </div>
                </div>
             </div>
@@ -115,7 +116,7 @@
 <style>
 
 #mainNav{
-   background-color: #00cc00;
+   background-color: #8EC100;
 }
 </style>
 

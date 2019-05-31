@@ -12,8 +12,8 @@
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #A5E839;
-    border: 1px solid #A5E839;
+    color: #8EC100;
+    border: 1px solid #8EC100;
   }
   
   #mainNav .navbar-toggler:focus {
@@ -74,15 +74,15 @@
       border-bottom: 0.25rem solid transparent;
     }
     #mainNav.navbar-shrink .nav-link:hover {
-      color: #00CC00;
+      color: #8EC100;
     }
     #mainNav.navbar-shrink .nav-link:active {
       color: #467370;
     }
     #mainNav.navbar-shrink .nav-link.active {
-      color: #00CC00;
+      color: #8EC100;
       outline: none;
-      border-bottom: 0.25rem solid #00CC00;
+      border-bottom: 0.25rem solid #8EC100;
     }
   }
   
@@ -149,20 +149,20 @@
   }
   
   .btn-primary {
-    background-color: #00CC00;
+    background-color: #8EC100;
   }
   
   .btn-primary:hover {
-    background-color: #00CC00;
+    background-color: #8EC100;
   }
   
   .btn-primary:focus {
-    background-color: rgba(0, 204, 0, 0.829);
+    background-color: #8EC100;
     color: white;
   }
   
   .btn-primary:active {
-    background-color: rgb(15, 131, 15) !important;
+    background-color: #8EC100 !important;
   }
   
   .projects-section {
@@ -177,7 +177,7 @@
   @media (min-width: 992px) {
     .projects-section .featured-text {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #00CC00;
+      border-left: 0.5rem solid #8EC100;
     }
   }
   
@@ -191,7 +191,7 @@
       padding: 5rem;
     }
     .projects-section .project-text hr {
-      border-color: #00CC00;
+      border-color: #8EC100;
       border-width: .25rem;
       width: 30%;
     }
@@ -224,7 +224,7 @@
    .card {
      margin-top: 5%;
     border: 0;
-    border-bottom: 0.25rem solid #00CC00;
+    border-bottom: 0.25rem solid #8EC100;
   }
   
  .card h4 {
@@ -235,7 +235,7 @@
   }
   
  .card hr {
-    border-color: #00CC00;
+    border-color: #8EC100;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -247,7 +247,7 @@
   }
   
   a {
-    color: #00CC00;
+    color: #8EC100;
   }
   
   a:focus, a:hover {
@@ -260,11 +260,11 @@
   }
   
   .bg-primary {
-    background-color: #00CC00 !important;
+    background-color: #8EC100 !important;
   }
   
   .text-primary {
-    color: #00CC00 !important;
+    color: #8EC100 !important;
   }
 
 .md-3 {
