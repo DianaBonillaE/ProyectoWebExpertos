@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<div class="form-horizontal" style="margin-top:5%;">
+<div class="form-horizontal" style="margin-top:8%;">
    <div class="container md-3">
       <br />
       <h1 class="text-center">Actualizar un Sitio Turístico Rural</h1>
@@ -119,4 +119,10 @@
       </div>
    </div>
 <br>
+<style>
+
+#mainNav{
+   background-color: #00cc00;
+}
+</style>
 <?php include 'footer.php';?>

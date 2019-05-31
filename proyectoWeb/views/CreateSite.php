@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-   <div class="container md-3" style="margin-top:5%;">
+   <div class="container md-3" style="margin-top:8%;">
       <br />
       <h1 class="text-center">Ingresar un Sitio Turístico Rural</h1>
       <br />
@@ -115,5 +115,10 @@
    <!--row buttons-->
       </div>
    </div>
-   
+   <style>
+
+#mainNav{
+   background-color: #00cc00;
+}
+</style>
 <?php include 'footer.php';?>

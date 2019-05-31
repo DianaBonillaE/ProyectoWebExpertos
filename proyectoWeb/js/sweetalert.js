@@ -1,5 +1,18 @@
 function deleteSite() {
-    swal("El Estilo de Aprendizaje es: " + response, "", {
-        icon: "success",
-    });
+    swal({
+        title: "Está seguro de eliminar el sitio",
+        text: "Las Cruces Estación Biológica",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("El sitio fue eliminado correctamente", {
+            icon: "success",
+          });
+        } else {
+          
+        }
+      });
 }

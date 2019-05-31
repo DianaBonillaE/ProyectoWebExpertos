@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<div class="container md-5" style="margin-top:5%;">
+<div class="container md-5" style="margin-top:8%;">
    <br />
    <h1 class="text-center">Sitios Turísticos Rurales</h1>
    <br />
@@ -34,7 +34,7 @@
             <td>
             <a href="editSite.php" class=" btn-link ">Editar</a>|
             <a href="detailSite.php" class=" btn-link ">Detalles</a>|
-            <a href="deleteSite.php" onclick="deleteSite()" class=" btn-link ">Eliminar</a>
+            <a style="color:blue;" onclick="deleteSite()" class=" btn-link ">Eliminar</a>
             </td>
          </tr>
       </table>
@@ -48,9 +48,12 @@
    <br />
    <br />
 </div>
-<script>
-function deleteSite(){
-   swal("Hello world!");
-}
+<script src="../js/sweetalert.js">
 </script>
+<style>
+
+#mainNav{
+   background-color: #00cc00;
+}
+</style>
 <?php include 'footer.php';?>
