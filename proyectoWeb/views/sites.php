@@ -119,7 +119,7 @@
                      <div class="form-group">
                        <br>
                        <br>
-            <a href="index.php" type="submit" class="btn btn-primary btn-md text-uppercase">Buscar</a>
+            <a href="index.php"  class="btn btn-primary btn-md text-uppercase">Buscar</a>
          </div>
                      </div>
                   </div>
@@ -134,7 +134,7 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100 ">
             <div class="card-body text-center" >
-             <img src="../img/leona.jpg"  width="300" height="325">
+             <img src="../img/leona.jpg"  width="240" height="230">
         
               <hr class="my-4">
               
@@ -148,7 +148,7 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="../img/heliconias.jpg"  width="300" height="325">
+              <img src="../img/heliconias.jpg"  width="240" height="230">
               <hr class="my-4">
               <h4>Heliconias Rainforeste Lodge</h4>
               <br>
@@ -160,7 +160,7 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-            <img src="../img/silencio.jpg"  width="300" height="325">
+            <img src="../img/silencio.jpg"  width="240" height="230">
               <hr class="my-4">
               <h4>El Silencio Albergue Agroecoturístico Comunitario</h4>
               <br>
