@@ -11,7 +11,7 @@
               
               <h4>Tipos de Turismo</h4>
               <br>
-              <a href="indexTypeTurism.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="indexTypeTurism.php" class="btn btn-primary js-scroll-trigger" style="background-color:gray;">Ver más</a>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
               <hr class="my-4">
               <h4>Sitio Turístico</h4>
               <br>
-              <a href="listSite.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="listSite.php" class="btn btn-primary js-scroll-trigger" style="background-color:gray;">Ver más</a>
             </div>
           </div>
         </div>
@@ -35,13 +35,15 @@
               <hr class="my-4">
               <h4>Servicios</h4>
               <br>
-              <a href="indexService.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="indexService.php" class="btn btn-primary js-scroll-trigger" style="background-color:gray;">Ver más</a>
             </div>
           </div>
         </div>
       </div>
-
+      <br>
+      <br>
     </div>
+
     <style>   
     
     #mainNav {

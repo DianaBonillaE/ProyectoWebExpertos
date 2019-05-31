@@ -122,18 +122,18 @@ footer {
   }
   
   .btn-primary {
-    background-color:  gray ;
+    background-color:  #8EC100;
   }
   
   .btn-primary:hover {
-    background-color:  gray ;
+    background-color:  #8EC100 ;
   }
   
   .btn-primary:focus {
-    background-color:  gray ;
+    background-color:  #8EC100 ;
     color: white;
   }
   
   .btn-primary:active {
-    background-color: gray !important;
+    background-color: #8EC100 !important;
   }

@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'headerAdmin.php';?>
 <div class="container md-3" style="margin-top:8%;">
    <br />
    <h1 class="text-center">Sitios Turísticos Rurales</h1>
