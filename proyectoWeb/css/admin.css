@@ -2,9 +2,10 @@
 .card {
     margin-top: 5%;
    border: 0;
-   border-bottom: 0.25rem solid #00CC00;
+   border-bottom: 0.25rem solid #8EC100;
    width:350px; 
-   background-color:#8EC100; 
+   background-color:#fff; 
+   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
  }
  
 .card h4 {
@@ -15,7 +16,7 @@
  }
  
 .card hr {
-   border-color: #8EC100;
+   border-color: #fff;
    border-width: 0.25rem;
    width: 3rem;
  }

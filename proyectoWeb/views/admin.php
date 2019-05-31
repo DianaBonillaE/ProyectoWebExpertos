@@ -11,7 +11,7 @@
               
               <h4>Tipos de Turismo</h4>
               <br>
-              <a href="siteDetails.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="indexTypeTurism.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
             </div>
           </div>
         </div>
@@ -19,11 +19,11 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100" style="width:350px;">
             <div class="card-body text-center">
-              <img src="../img/heliconias.jpg"  width="200" height="225">
+              <img src="../img/sitiosTuristicos.jpg"  width="200" height="225">
               <hr class="my-4">
               <h4>Sitio Turístico</h4>
               <br>
-              <a href="#projects" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="listSite.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
             </div>
           </div>
         </div>
@@ -31,11 +31,11 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100" style="width:350px;">
             <div class="card-body text-center">
-            <img src="../img/silencio.jpg"  width="200" height="225">
+            <img src="../img/servicios.jpg"  width="200" height="225">
               <hr class="my-4">
               <h4>Servicios</h4>
               <br>
-              <a href="#projects" class="btn btn-primary js-scroll-trigger">Ver más</a>
+              <a href="indexService.php" class="btn btn-primary js-scroll-trigger">Ver más</a>
             </div>
           </div>
         </div>
