@@ -137,3 +137,8 @@ footer {
   .btn-primary:active {
     background-color: #8EC100 !important;
   }
+  .md-3 {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+      width: 60%;
+  
+  }
