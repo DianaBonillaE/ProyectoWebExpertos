@@ -274,15 +274,19 @@
 }
 
 .md-5 {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  width: 100%;
-
+  width: 60%;
 }
 
 .md-4 {
- 
-  width: 60%;
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  width: 90%;
+  margin-left: 7%
+}
 
+.md-6 {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  width: 90%;
+  margin-left: 7%
 }
 
 .check{

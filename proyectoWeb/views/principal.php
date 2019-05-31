@@ -16,7 +16,7 @@
 <section id="projects" class="projects-section bg-light">
    <div class="row">
       <div class="col-md-4">
-         <div class="container md-4">
+         <div class="container md-5">
             <div class="panel panel-default">
                <br>
                <div class="panel-heading ">
