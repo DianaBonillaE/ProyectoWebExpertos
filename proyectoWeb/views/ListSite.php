@@ -1,4 +1,9 @@
 <?php include 'headerAdmin.php';?>
+<?php
+   $mysqli = new mysqli("163.178.173.144", "multi-paraiso", "multimedios.rp.2017", "TURISMORURALCR");
+   $sql = "Select * from Sitio";
+   $result = mysqli_query($mysqli,$sql);
+?>
 <div class="container md-3" style="margin-top:8%;">
    <br />
    <h1 class="text-center">Sitios Turísticos Rurales</h1>
@@ -12,7 +17,11 @@
    </div>
    <br />
    <table class="table ">
+   <thead>
       <tr class="text-center">
+      <th>
+            ID
+         </th>
          <th>
             Nombre
          </th>
@@ -21,19 +30,29 @@
          </th>
          <th></th>
       </tr>
+</thead>
+<tbody>
+      <? php    
+$fila = array("hola","hola2");
+    //  while ($fila) {
+
+      ?>
       <tr>
+         <td><? php echo $fila[0] ?></td>
          <td>
-            Las Cruces Estación Biológica
+            
          </td>
          <td>
-            San Vito, San Vito De Coto Brus, Puntarenas, Coto Brus
+            
          </td>
          <td>
-            <a href="editSite.php" class=" btn-link ">Editar</a>|
-            <a href="detailSite.php" class=" btn-link ">Detalles</a>|
-            <a style="color:blue;" onclick="deleteSite()" class=" btn-link ">Eliminar</a>
+          <a style="color:blue;" onclick="delet()" class=" btn-link ">Eliminar</a>
          </td>
       </tr>
+      </tbody>
+      <? php
+//}
+      ?>
    </table>
    <div class="col-sm-3 ">
       <a href="./admin.php" class="btn btn-primary btn-md text-uppercase">Regresar</a>
