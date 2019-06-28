@@ -15,7 +15,7 @@
 <!-- Search Section -->
 <section id="projects" class="projects-section bg-light">
    <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-5">
          <div class="container md-5">
             <div class="panel panel-default">
                <br>
@@ -28,71 +28,41 @@
                   <h4>Tipo de turismo comunal</h4>
                   <br>
                   <form class="check">
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Ecoturismo</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Aventura</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Cultural</label>
-                     </div>
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Etnoturismo</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Agroturismo</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Educativo y activo</label>
-                     </div>
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Salud</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Meditación</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Científico</label>
-                     </div>
+                  <select name="type" id="type" class="form-control">
+                        <option value="1">Ecoturismo</option>
+                        <option value="2">Aventura</option>
+                        <option value="3">Cultural</option>
+                        <option value="4">Etnoturismo</option>
+                        <option value="5">Agroturismo</option>
+                        <option value="6">Educativo</option>
+                        <option value="7">Salud</option>
+                        <option value="8">Meditacion</option>
+                        <option value="9">Científico</option>
+                    </select>
                   </form>
                   <br>
                   <h4>Servicios</h4>
                   <br>
                   <form class="check">
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Observación de naturaleza</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Cabalgadas</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Artesanías</label>
-                     </div>
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Visitas a fincas</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Actividades de campo</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Medicina natural</label>
-                     </div>
-                     <div class="checkbox input-lg text-black-50 mb-0">
-                        <label><input type="checkbox" value="" > Comunidad índigena</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Idiomas</label>
-                     </div>
-                     <div class="checkbox text-black-50 mb-0">
-                        <label><input type="checkbox" value=""> Baños termales</label>
-                     </div>
+                  <select name="services" id="services" class="form-control">
+                        <option value="1">Observación de la naturaleza</option>
+                        <option value="2">Cabalgatas</option>
+                        <option value="3">Artesanías</option>
+                        <option value="4">Visitas a Fincas</option>
+                        <option value="5">Actividades de campo</option>
+                        <option value="6">Medicina natural</option>
+                        <option value="7">Comunidad indigena</option>
+                        <option value="8">Idiomas</option>
+                        <option value="9">Baños termales</option>
+                        <option value="10">Caminatas</option>
+                        <option value="11">Cannopy y otros</option>
+                    </select>
                   </form>
                </div>
             </div>
          </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-7">
          <div class="container">
             <div class="panel panel-default">
                <div class="panel-body">
@@ -100,25 +70,26 @@
                      <div class="col-md-5">
                         <br>
                         <h4>Estadía</h4>
-                        <select name="services" id="services" class="form-control">
-                           <option value="1">Estadía Corta</option>
-                           <option value="2">Estadía Larga</option>
+                        <select name="stay" id="stay" class="form-control">
+                           <option value="EC">Estadía Corta</option>
+                           <option value="EL">Estadía Larga</option>
                         </select>
                      </div>
                      <div class="col-md-5">
                         <br>
                         <h4>Acceso</h4>
-                        <select name="services" id="services" class="form-control">
-                           <option value="1">Automovíl</option>
-                           <option value="2">Autobus</option>
-                           <option value="3">Caminata</option>
+                        <select name="transport" id="transport" class="form-control">
+                           <option value="A">Automovíl</option>
+                           <option value="B">Autobus</option>
+                           <option value="C">Caminata</option>
                         </select>
                      </div>
                      <div class="col-md-2">
                      <div class="form-group">
                        <br>
                        <br>
-            <a href="sites.php" type="submit" class="btn btn-primary btn-md text-uppercase">Buscar</a>
+            <button id="btn3"  type="button" class="btn btn-primary btn-md text-uppercase" onclick="search()">Buscar</button>
+           
          </div>
                      </div>
                   </div>
